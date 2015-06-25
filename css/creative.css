@@ -8,6 +8,10 @@
     src: url(../fonts/Open Sans.ttf);
 }
 
+@font-face {
+    font-family: Toodik;
+    src: url(../fonts/Toodik.ttf);
+}
 
 @font-face {
     font-family: Merriweather;
@@ -22,7 +26,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Merriweather' ,sans-serif;
 }
 
 hr {
@@ -53,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans' , serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -89,7 +93,7 @@ aside {
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans', serif;
+    font-family: font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -452,7 +456,7 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans', serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -504,5 +508,13 @@ body {
 .service-list {
     list-style-type: none;
     margin-left: -30px;
+}
 
+.service-list {
+    font-family: 'Merriweather', sans-serif;
+}
+
+.menu-logo {
+    height: 50px;
+    margin-top:-14px;
 }
