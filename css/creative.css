@@ -517,3 +517,13 @@ body {
     height: 50px;
     margin-top:-14px;
 }
+
+.text-anchor {
+    color: rgba(255, 255, 255, 0.70);
+    text-decoration:none;
+}
+
+.text-anchor:hover {
+    color: rgba(255, 255, 255, 0.70);
+    cursor: pointer;
+}
