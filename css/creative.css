@@ -513,6 +513,10 @@ body {
     font-family: 'Merriweather', 'Helvetica Neue',Arial,sans-serif;
 }
 
+.service-list > li {
+    text-align: justify;
+}
+
 .menu-logo {
     height: 50px;
     margin-top:-14px;
