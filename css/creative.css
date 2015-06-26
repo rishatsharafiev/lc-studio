@@ -26,7 +26,7 @@ body {
 }
 
 body {
-    font-family: 'Merriweather' ,sans-serif;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -93,7 +93,7 @@ aside {
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -102,7 +102,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans', serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
 }
@@ -306,7 +306,7 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans', serif;
+    font-family: 'Open Sans', 'Helvetica Neue',Arial,sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -510,7 +510,7 @@ body {
 }
 
 .service-list {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather', 'Helvetica Neue',Arial,sans-serif;
 }
 
 .menu-logo {
