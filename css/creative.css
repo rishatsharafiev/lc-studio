@@ -77,6 +77,7 @@ p {
 
 .text-faded {
     color: rgba(255,255,255,.7);
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
 section {
@@ -222,7 +223,6 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
-    font-weight: 300;
     color: rgba(255,255,255,.7);
 }
 
