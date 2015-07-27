@@ -13,7 +13,7 @@ $(function() {
             $name = $('#inputName'),
             $phone = $('#inputPhone');
 
-        if( $name.val() && $phone.val() ) {
+        if( $name.val().length > 0 && $phone.val().length == 18) {
             var formData = {
                 name: $name.val(),
                 phone: $phone.val(),
@@ -26,9 +26,11 @@ $(function() {
                 }
             });
             $sendForm.attr('data-dismiss', 'modal');
+            $sendForm.attr('data-target', "#thanks");
             setTimeout(function() {
+                $sendForm.removeAttr( 'data-target' );
                 $sendForm.removeAttr( 'data-dismiss' );
-            }, 5000);
+            }, 500);
         }
     }
 });

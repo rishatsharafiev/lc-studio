@@ -45,9 +45,13 @@
     <meta charset="utf-8"/>
     <title>'.$SUBJECT.'</title>
     <style>
+      ul {
+        list-style: none;
+      }
+
       ul > li {
         font-size: 14px;
-        font-weight
+        font-weight: 700;
       }
     </style>
   </head>
