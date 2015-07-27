@@ -558,3 +558,11 @@ body {
 .service-box:hover {
     background-color: #e7e7e7;
 }
+
+
+/* make order modal window */
+.make-order {
+    padding-top: 10%;
+}
+
+/* make order modal window */
