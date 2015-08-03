@@ -546,6 +546,11 @@ body {
     text-decoration: none;
 }
 
+.service-link:focus {
+    color: #000;
+    text-decoration: none;
+}
+
 .service-box {
     border-radius: 4px;
     padding: 20px 10px;
